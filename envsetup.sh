@@ -9,9 +9,11 @@ else
     sudo apt install virtualenv -y
     sudo apt install python3-venv -y
     sudo apt install python3-pip -y
+    pip install django
     sudo apt install nginx -y
     sudo apt install gunicorn -y
     sudo apt install django -y
+
 fi
 
     python3 -m venv rahul
