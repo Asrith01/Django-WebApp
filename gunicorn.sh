@@ -5,7 +5,8 @@ cd /var/lib/jenkins/workspace/django
 $PWD
 
 source rahul/bin/activate
-pip3 install gunicorn
+pip install django
+pip install gunicorn
 
 python3 manage.py makemigrations
 python3 manage.py migrate
