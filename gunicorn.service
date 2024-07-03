@@ -7,7 +7,7 @@ After=network.target
 User=jenkins
 Group=jenkins
 WorkingDirectory=/var/lib/jenkins/workspace/django/
-ExecStart=/var/lib/jenkins/workspace/django/praveen/bin/gunicorn \
+ExecStart=/var/lib/jenkins/workspace/django/rahul/bin/gunicorn \
           --workers 3 \
           --bind unix:/run/gunicorn.sock/ \
           django_web_app.wsgi:application
