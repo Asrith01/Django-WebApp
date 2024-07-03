@@ -9,8 +9,8 @@ chmod 710 /var/lib/jenkins/workspace/django
 
 sudo sed -i 's/80 default_server/81 default_server/g' /etc/nginx/sites-enabled/default
 
-sudo systemctl restart nginx.service
+sudo service nginx start
 
 echo "Nginx has been started"
 
-sudo systemctl status nginx.service
+sudo service nginx status
