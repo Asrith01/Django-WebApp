@@ -13,14 +13,14 @@ else
     sudo apt install gunicorn -y
 fi
 
-    python3 -m venv praveen
+    python3 -m venv rahul
     
-if [ -d "praveen" ]
+if [ -d "rahul" ]
 then
     echo "Python virtual environment exists."
 else
     echo "Creating a virtual environment"
-    python3 -m venv praveen
+    python3 -m venv rahul
 fi
 
 echo "The current directory"
