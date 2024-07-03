@@ -11,6 +11,7 @@ else
     sudo apt install python3-pip -y
     sudo apt install nginx -y
     sudo apt install gunicorn -y
+    sudo apt install django -y
 fi
 
     python3 -m venv rahul
