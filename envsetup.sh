@@ -31,7 +31,7 @@ echo $PWD
 echo -e "\n\n\n"
 
 echo "Activating the virtual environment"
-source praveen/bin/activate
+source rahul/bin/activate
 echo -e "\n\n\n"
 
 echo -e "\n\n\n"
